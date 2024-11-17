@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Property Inquiry Form
+        </title>
+        <style>
+            body {
+                background-image: url(bg.jpg);
+                background-size: cover;
+            }
+            p1 {
+                font-size: 18px;
+            }
+            p2,p3{
+                font-size: 18px;
+            }
+            input{
+                margin-left: 10%;
+                width: 250px;
+            }
+            label{
+                margin-left: 5%;
+            }
+        </style>
+    </head>
+    <body>
+        <center><h1>Property Inquiry Form</h1></center>
+        <center><p1><i>Fill out the form to inquire about your dream property!</i></p1></center><br><br>
+        <form>
+            <label for="name">Name :</label>
+            <input type="text" id="name"><br><br>
+
+            <label for="no">Mobile Number :</label>
+            <input type="number" id="no" style="margin-left: 5.8%;margin-right: 40%;" ><p2><i>We won't spam you :)</i></p2><br><br>
+            
+            <label for="email">Email Id :</label>
+            <input type="email" id="email" style="margin-left: 8.8%;margin-right: 40%;" ><p3><i>We won't spam you :)</i></p3><br><br>
+            
+            <label for="bu">Budget :</label>
+            <input type="number" id="bu" style="margin-left: 9.3%;margin-right: 30%;" ><br><br>
+            
+            <label for="size">Property Size :</label>
+            <input type="number" id="size" style="margin-left: 6.8%;margin-right: 30%;" ><br><br>
+            
+            <label for="type" style="margin-right: 0%;">Property Type :</label>
+            <input type="radio" id="house" name="propertyType" value="house"style="margin-left: -27px;">
+            <label for="house" style="margin-left: 0%;">House</label><br>
+            <input type="radio" id="apartment" name="propertyType" value="apartment" >
+            <label for="apartment" style="margin-left: 0%;">Apartment</label><br>
+            <input type="radio" id="land" name="propertyType" value="land" >
+            <label for="land" style="margin-left: 0%;">Land</label><br>
+            <input type="radio" id="commercial" name="propertyType" value="commercial" >
+            <label for="commercial" style="margin-left: 0%;">Commercial Property</label><br><br>
+            
+            <label for="lo">Location Preference :</label>
+            <input type="text" id="lo" style="margin-left: 4%;margin-right: 30%;" ><br><br>
+            
+            <label for="inq">Inquiry Details :</label>
+            <input type="text" id="inq" style="margin-left: 6%;margin-right: 30%; height:60px" ><br><br>
+            
+            <input type="submit" style="width: 75px; margin-left: 35%;"><br><br>
+            
+        </form>
+    </body>
+</html>
